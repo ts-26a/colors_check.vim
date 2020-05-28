@@ -18,14 +18,15 @@ The *colors_check* plugin is a colorscheme checker for vim.
 
 ------------------------------------------------------------------------------
 ColorsCheck					*ColorsCheck*
-	`:ColorsCheck repository [colors-name [rtp]]`
-	The repository is required. Also, colors-name and rtp are optional.
-	If you specify rtp, you also need to specify colors-name.
-	The repository only supports the form `user/repo` on github.
-	colors-name is used when you want to specify the name of the
-	colororscheme you want to use, and rtp is used when you wnat
-	to download only the subdirectory.
-	Since colors-name is inferred from the repository argument,
+	`:ColorsCheck <repository or url> [colors-name [rtp]]`
+	The <repository or url> is required. Also, colors-name and
+	rtp are optional. If you specify rtp, you also need to
+	specify colors-name. The repository or url only supports the
+	form `user/repo` on github or colorscheme file url. colors-name
+	is used when you want to specify the name of the colororscheme
+	you want to use, and rtp is used when you wnat to
+	download only the subdirectory. Since colors-name
+	is inferred from the repository argument,
 	`~~~/foo.vim` is automatically entered into colors-name
 	for `foo`, `~~~/vim-bar` for `bar`, and `~~~/baz-baz` for
 	`baz`, in which case colors-name works without specifying it.

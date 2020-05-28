@@ -7,7 +7,7 @@ I have a hard time expressing it in English, so watch the video.
 
 # Command
 
-`:ColorsCheck repository [coloes-name] [rtp]`  
+`:ColorsCheck <repository or file url> [coloes-name] [rtp]`  
 Please see `:help ColorsCheck`
 
 `:ColorsCacheClean`  
