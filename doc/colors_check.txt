@@ -1,0 +1,39 @@
+*colors_check.txt*	A colorscheme checker for vim.
+
+Version: 0.1
+Author: ts-26a (https://github.com/ts-26a)
+License: MIT License
+Repository: https://github.com/ts-26a/colors_check.vim
+Last Change: 2020/5/28
+
+CONTENTS 				*colors_check-contents*
+
+Introduction			|colors_check-introduction|
+Usage					|ColorsCheck|
+Usage					|ColorsCacheClean|
+
+==============================================================================
+Introduction			*colors_check-introduction*
+The *colors_check* plugin is a colorscheme checker for vim.
+
+------------------------------------------------------------------------------
+ColorsCheck					*ColorsCheck*
+	`:ColorsCheck repository [colors-name [rtp]]`
+	The repository is required. Also, colors-name and rtp are optional.
+	If you specify rtp, you also need to specify colors-name.
+	The repository only supports the form `user/repo` on github.
+	colors-name is used when you want to specify the name of the
+	colororscheme you want to use, and rtp is used when you wnat
+	to download only the subdirectory.
+	Since colors-name is inferred from the repository argument,
+	`~~~/foo.vim` is automatically entered into colors-name
+	for `foo`, `~~~/vim-bar` for `bar`, and `~~~/baz-baz` for
+	`baz`, in which case colors-name works without specifying it.
+
+ColorsCacheClean			*ColorsCacheClean*
+	`:ColorsCacheClean`
+	Clean the caches for `ColorsCheck`.
+
+
+==============================================================================
+vim:tw=78:sw=4:ts=8:ft=help:norl:noet:
