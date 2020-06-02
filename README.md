@@ -18,6 +18,10 @@ call dein#add('ts-26a/colorscheck.vim')
 ```
 then `:call dein#install()` and `:UpdateRemotePlugins`  
 
+# Requires
+- `pip3 install pynvim neovim requests`
+- `:echo has('python3')` is 1
+
 # Commands
 
 `:ColorsCheck <repository or file url> [coloes-name] [rtp]`  
