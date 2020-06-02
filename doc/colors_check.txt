@@ -14,7 +14,7 @@ Usage					|ColorsCacheClean|
 
 ==============================================================================
 Introduction			*colors_check-introduction*
-The *colors_check* plugin is a colorscheme checker for vim.
+yn
 
 ------------------------------------------------------------------------------
 ColorsCheck					*ColorsCheck*
@@ -29,7 +29,7 @@ ColorsCheck					*ColorsCheck*
 	is inferred from the repository argument,
 	`~~~/foo.vim` is automatically entered into colors-name
 	for `foo`, `~~~/vim-bar` for `bar`, and `~~~/baz-baz` for
-	`baz`, in which case colors-name works without specifying it.
+	`baz_bax`, in which case colors-name works without specifying it.
 
 ColorsCacheClean			*ColorsCacheClean*
 	`:ColorsCacheClean`
