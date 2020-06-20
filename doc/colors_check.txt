@@ -8,13 +8,12 @@ Last Change: 2020/5/28
 
 CONTENTS 				*colors_check-contents*
 
-Introduction			|colors_check-introduction|
+Introduction				|colors_check-introduction|
 Usage					|ColorsCheck|
 Usage					|ColorsCacheClean|
 
 ==============================================================================
 Introduction			*colors_check-introduction*
-yn
 
 ------------------------------------------------------------------------------
 ColorsCheck					*ColorsCheck*
