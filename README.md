@@ -6,13 +6,18 @@ This is a vim colorscheme checker.
 ![Demo](https://raw.githubusercontent.com/ts-26a/colors_check.vim/master/gif/ex.gif)
 
 # Installing
-With Vim-Plug:  
+```vim
+set runtimepath+=~/.cache/colors_check
+```
+And
+
+if you're using Vim-Plug:  
 ```
 Plug 'ts-26a/colorscheck.vim', {'do': ':UpdateRemotePlugins'}
 ```
 then `:PlugInstall`
 
-With dein.vim:  
+or if dein.vim:  
 ```
 call dein#add('ts-26a/colorscheck.vim')
 ```
