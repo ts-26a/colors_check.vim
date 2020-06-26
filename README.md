@@ -11,13 +11,13 @@ set runtimepath+=~/.cache/colors_check
 ```
 And
 
-if you're using Vim-Plug:  
+if you're using [Vim-Plug](https://github.com/junegunn/vim-plug):
 ```
 Plug 'ts-26a/colorscheck.vim', {'do': ':UpdateRemotePlugins'}
 ```
 then `:PlugInstall`
 
-or if dein.vim:  
+or if [dein.vim](https://github.com/Shougo/dein.vim):
 ```
 call dein#add('ts-26a/colorscheck.vim')
 ```
