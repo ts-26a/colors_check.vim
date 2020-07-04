@@ -27,7 +27,7 @@ then `:call dein#install()` and `:UpdateRemotePlugins`
 - `pip3 install pynvim neovim requests`
 - `:echo has('python3')` is 1
 
-# Commands
+# Usage
 
 `:ColorsCheck <repository or file url> [coloes-name] [rtp]`  
 Please see `:help ColorsCheck`  
