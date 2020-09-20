@@ -29,7 +29,7 @@ then `:call dein#install()` and `:UpdateRemotePlugins`
 
 # Usage
 
-`:ColorsCheck <repository or file url> [coloes-name] [rtp]`  
+`:ColorsCheck <repository or file url> [colors-name] [rtp]`  
 Please see `:help ColorsCheck`  
 
 `:ColorsCacheClean`  
